@@ -24,10 +24,10 @@ public class Validator {
       }
       catch (Exception e) {
         System.out.println("Please read the menu and make a valid selection!");
-        valid = false; // just in case
+        valid = false; 
       } 
-      finally { // runs if there's an error or NOT!! always runs
-        input.nextLine(); // clear the input
+      finally { 
+        input.nextLine(); 
       }
     }
     return choice;
